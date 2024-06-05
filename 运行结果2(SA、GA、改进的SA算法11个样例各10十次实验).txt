@@ -1,0 +1,230 @@
+----------------------------------
+instance 0:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  7038/7038/7038
+        the min makespan: 7038
+        the optimal scheduling sequence is: 8, 5, 3, 4, 11, 9, 10, 1, 2, 7, 6
+        algorithm runtime: 453 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  7038/7038/7038
+        the min makespan: 7038
+        the optimal scheduling sequence is: 8, 3, 5, 11, 4, 7, 2, 9, 10, 6, 1
+        algorithm runtime: 22661 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  7038/7038/7038
+        the min makespan: 7038
+        the optimal scheduling sequence is: 8, 3, 5, 11, 1, 4, 9, 7, 10, 2, 6
+        algorithm runtime: 4486 milliseconds
+
+----------------------------------
+instance 1:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  6269/6287.9/6332
+        the min makespan: 6269
+        the optimal scheduling sequence is: 4, 2, 1, 5, 3
+        algorithm runtime: 279 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  6269/6269/6269
+        the min makespan: 6269
+        the optimal scheduling sequence is: 4, 2, 1, 5, 3
+        algorithm runtime: 16028 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  6269/6269/6269
+        the min makespan: 6269
+        the optimal scheduling sequence is: 4, 2, 1, 5, 3
+        algorithm runtime: 2756 milliseconds
+
+----------------------------------
+instance 2:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  5066/5066/5066
+        the min makespan: 5066
+        the optimal scheduling sequence is: 4, 8, 6, 5, 2, 1, 3, 7
+        algorithm runtime: 335 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  5066/5066/5066
+        the min makespan: 5066
+        the optimal scheduling sequence is: 4, 8, 6, 5, 2, 3, 7, 1
+        algorithm runtime: 18570 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  5066/5066/5066
+        the min makespan: 5066
+        the optimal scheduling sequence is: 4, 8, 6, 5, 1, 2, 3, 7
+        algorithm runtime: 3396 milliseconds
+
+----------------------------------
+instance 3:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  6655/6660.5/6666
+        the min makespan: 6655
+        the optimal scheduling sequence is: 7, 8, 6, 5, 4, 10, 1, 9, 3, 2
+        algorithm runtime: 420 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  6655/6655/6655
+        the min makespan: 6655
+        the optimal scheduling sequence is: 7, 8, 6, 10, 5, 9, 3, 4, 2, 1
+        algorithm runtime: 21386 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  6655/6655/6655
+        the min makespan: 6655
+        the optimal scheduling sequence is: 7, 8, 6, 10, 5, 9, 4, 1, 3, 2
+        algorithm runtime: 4127 milliseconds
+
+----------------------------------
+instance 4:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  9431/9431/9431
+        the min makespan: 9431
+        the optimal scheduling sequence is: 3, 6, 13, 12, 14, 8, 10, 9, 11, 5, 1, 15, 2, 7, 4
+        algorithm runtime: 596 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  9431/9431/9431
+        the min makespan: 9431
+        the optimal scheduling sequence is: 3, 6, 13, 12, 14, 1, 11, 8, 7, 9, 15, 10, 5, 4, 2
+        algorithm runtime: 28089 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  9431/9431/9431
+        the min makespan: 9431
+        the optimal scheduling sequence is: 3, 6, 11, 5, 8, 12, 9, 13, 7, 14, 15, 1, 10, 2, 4
+        algorithm runtime: 5977 milliseconds
+
+----------------------------------
+instance 5:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  7021/7042.2/7072
+        the min makespan: 7021
+        the optimal scheduling sequence is: 4, 2, 1, 3, 6, 8, 7, 5
+        algorithm runtime: 361 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  6961/6961/6961
+        the min makespan: 6961
+        the optimal scheduling sequence is: 2, 1, 3, 6, 8, 7, 5, 4
+        algorithm runtime: 19541 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  6961/6997.9/7044
+        the min makespan: 6961
+        the optimal scheduling sequence is: 2, 1, 3, 6, 8, 7, 5, 4
+        algorithm runtime: 3602 milliseconds
+
+----------------------------------
+instance 6:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  1372/1412/1444
+        the min makespan: 1372
+        the optimal scheduling sequence is: 2, 13, 8, 11, 10, 15, 12, 9, 6, 18, 1, 7, 4, 17, 14, 3, 16, 5
+        algorithm runtime: 823 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  1342/1376.2/1404
+        the min makespan: 1342
+        the optimal scheduling sequence is: 2, 13, 8, 11, 10, 15, 12, 9, 18, 1, 17, 3, 14, 4, 7, 6, 16, 5
+        algorithm runtime: 36274 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  1346/1361.2/1374
+        the min makespan: 1346
+        the optimal scheduling sequence is: 13, 2, 15, 9, 8, 11, 10, 12, 18, 1, 17, 14, 3, 4, 7, 6, 16, 5
+        algorithm runtime: 8393 milliseconds
+
+----------------------------------
+instance 7:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  1858/1871.2/1902
+        the min makespan: 1858
+        the optimal scheduling sequence is: 5, 13, 7, 4, 17, 11, 18, 12, 10, 14, 15, 9, 2, 16, 1, 8, 3, 6
+        algorithm runtime: 970 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  1855/1868.3/1873
+        the min makespan: 1855
+        the optimal scheduling sequence is: 10, 5, 13, 11, 14, 7, 4, 12, 18, 2, 17, 15, 1, 8, 9, 16, 3, 6
+        algorithm runtime: 41460 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  1842/1849.1/1858
+        the min makespan: 1842
+        the optimal scheduling sequence is: 5, 13, 7, 4, 18, 12, 15, 11, 1, 10, 17, 14, 9, 2, 16, 8, 3, 6
+        algorithm runtime: 9755 milliseconds
+
+----------------------------------
+instance 8:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  932/953/976
+        the min makespan: 932
+        the optimal scheduling sequence is: 15, 4, 5, 8, 10, 13, 2, 1, 12, 7, 3, 14, 9, 6, 11, 16
+        algorithm runtime: 676 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  932/934.9/952
+        the min makespan: 932
+        the optimal scheduling sequence is: 15, 4, 5, 8, 1, 13, 2, 10, 12, 7, 3, 14, 9, 6, 11, 16
+        algorithm runtime: 30246 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  932/932.3/935
+        the min makespan: 932
+        the optimal scheduling sequence is: 15, 4, 5, 2, 1, 8, 10, 13, 12, 7, 3, 14, 9, 6, 11, 16
+        algorithm runtime: 6575 milliseconds
+
+----------------------------------
+instance 9:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  1763/1791.4/1811
+        the min makespan: 1763
+        the optimal scheduling sequence is: 11, 15, 14, 2, 10, 6, 9, 1, 12, 16, 3, 5, 13, 7, 8, 4
+        algorithm runtime: 931 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  1746/1762/1801
+        the min makespan: 1746
+        the optimal scheduling sequence is: 12, 3, 16, 11, 15, 14, 9, 1, 2, 10, 8, 5, 6, 13, 4, 7
+        algorithm runtime: 37970 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  1749/1760.3/1787
+        the min makespan: 1749
+        the optimal scheduling sequence is: 12, 16, 11, 15, 14, 9, 1, 2, 10, 6, 5, 7, 13, 8, 4, 3
+        algorithm runtime: 8748 milliseconds
+
+----------------------------------
+instance 10:
+  SA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  2776/2781.1/2789
+        the min makespan: 2776
+        the optimal scheduling sequence is: 8, 9, 35, 34, 37, 15, 11, 4, 1, 31, 33, 2, 16, 40, 12, 39, 10, 5, 29, 6, 24, 38, 3, 21, 36, 22, 28, 20, 13, 30, 27, 32, 25, 14, 18, 7, 17, 23, 19, 26        
+        algorithm runtime: 1790 milliseconds
+  GA:
+        Population size: 500, generations: 500, mutation rate: 0.5, eliteRate: 0.4
+        repetition times of the experiment: 10, makespan(min/avg/max):  2776/2776.3/2779
+        the min makespan: 2776
+        the optimal scheduling sequence is: 8, 9, 35, 34, 14, 37, 24, 12, 28, 33, 38, 29, 10, 40, 1, 18, 30, 39, 31, 36, 5, 20, 32, 13, 7, 16, 3, 2, 21, 17, 22, 25, 4, 6, 23, 15, 27, 11, 19, 26        
+        algorithm runtime: 71631 milliseconds
+  iSA:
+        initial temp: 10000, endTemp: 1e-30, coolingRate: 0.99, maxIterations: 100000
+        repetition times of the experiment: 10, makespan(min/avg/max):  2776/2776/2776
+        the min makespan: 2776
+        the optimal scheduling sequence is: 8, 9, 35, 40, 34, 29, 39, 31, 25, 33, 14, 37, 16, 18, 10, 24, 6, 17, 38, 36, 22, 11, 30, 32, 21, 4, 5, 3, 13, 12, 27, 1, 28, 20, 7, 15, 2, 23, 19, 26        
+        algorithm runtime: 17332 milliseconds
